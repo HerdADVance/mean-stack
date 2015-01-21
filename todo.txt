@@ -1,0 +1,3 @@
+To fix:
+
+entire user object sent to client when user logs in

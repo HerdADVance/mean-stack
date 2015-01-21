@@ -1,11 +1,15 @@
 doctype
 html
 	head
+		title MEAN
+		base(href="/")
+		script(src="http://code.jquery.com/jquery-1.11.0.min.js")
 		link(href="/favicon.ico", rel="shortcut icon")
 		link(rel="stylesheet", href="/css/bootstrap.css")
-		link(rel="stylesheet", href="/vendor/toastr.css")
+		link(rel="stylesheet", href="/vendor/toastr/toastr.css")
 		link(rel="stylesheet", href="/css/site.css")
 	body(ng-app='app')
+		include currentUser
 		block main-content
 		include scripts
 		
